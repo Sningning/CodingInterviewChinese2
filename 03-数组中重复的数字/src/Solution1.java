@@ -7,8 +7,6 @@ import java.util.HashSet;
  * 数组中某些数字是重复的，但不知道有几个数字重复了，也不知道每个数字重复了几次。
  * 请找出数组中任意一个重复的数字。
  *
- * https://leetcode-cn.com/problems/shu-zu-zhong-zhong-fu-de-shu-zi-lcof/
- *
  * @Author: Song Ningning
  * @Date: 2020-05-15 21:01
  */
