@@ -11,7 +11,7 @@
  */
 public class Solution {
 
-    public int fib(int n) {
+    public static int fib(int n) {
 
 
         // if (n < 2)
@@ -30,8 +30,8 @@ public class Solution {
 
         if (n < 2)
             return n;
-        int f1 = 1;
-        int f2 = 0;
+        int f1 = 0;
+        int f2 = 1;
         int fn = 0;
         for (int i = 2; i <= n; i++) {
             fn = (f1 + f2) % 1000000007;
@@ -39,5 +39,9 @@ public class Solution {
             f2 = fn;
         }
         return fn;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(fib(3));
     }
 }
