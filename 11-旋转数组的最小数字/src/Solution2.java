@@ -6,6 +6,7 @@ public class Solution2 {
     public int minArray(int[] numbers) {
 
         // 2. 二分
+        // Time：O(logN)；Space：O(1)
 
         // 1.为什么要用nums[mid]和nums[right]比较，而不是和nums[left]比较。
         // 因为是寻找最小值，看如下例子：
