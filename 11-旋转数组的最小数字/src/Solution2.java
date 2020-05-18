@@ -27,11 +27,10 @@ public class Solution2 {
         int right = len - 1;
         while (left < right) {
             int mid = left + ((right - left) >>> 1);
-            // 如果 中间 大于 最右边，肯定不在右边
+            // 如果 中间 小于 最右边，肯定不在右边
             if (numbers[mid] < numbers[right]) right = mid;
-                // 如果 中间 大于 最右边，肯定不在左边
+            // 如果 中间 大于 最右边，肯定不在左边
             else if (numbers[mid] > numbers[right]) left = mid + 1;
-                //
             else if (numbers[mid] == numbers[right]) right--;
         }
         return numbers[left];
