@@ -4,6 +4,8 @@
  */
 public class Solution2 {
     // 记忆化搜索
+    // Time：O(N^2) 循环里递归调用，相当于多一层循环。
+    // Space：O(N)
     public static int cuttingRope(int n) {
         int[] memo = new int[n + 1];
         return cut(n, memo);

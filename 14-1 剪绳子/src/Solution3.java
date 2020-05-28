@@ -20,6 +20,9 @@ public class Solution3 {
          * 结果返回：dp[n]
          */
 
+        // Time：O(N^2) 两层循环
+        // Space：O(N)
+
         int[] dp = new int[n + 1];
         dp[1] = 1;
         for (int i = 2; i <= n; i++) {
