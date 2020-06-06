@@ -35,7 +35,6 @@ public class Solution2 {
         while (a <= c && b <=d) {
             printEdge(m, a++, b++, c--, d--, res);
         }
-
         return res;
     }
 

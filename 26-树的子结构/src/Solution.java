@@ -13,7 +13,7 @@
 public class Solution {
 
     public boolean isSubStructure(TreeNode A, TreeNode B) {
-        // 有一个只要为空，就不能构成子树
+        // 因为空树不是任意一个树的子结构，所以只要有一个为空，就不能构成子树
         if (A == null || B == null)
             return false;
         // 考虑当前结点情况
@@ -31,17 +31,15 @@ public class Solution {
      * @return b 是否是 a 的子树
      */
     private boolean recur(TreeNode a, TreeNode b) {
-        // 因为上面已经对于都是空的情况进行了单独处理
-        // 所以进入该函数的 a 和 b 不可能全为空
 
         // b 已经找完了，返回 true
         if (b == null) return true;
         // B 还没找完，A 已经空了，返回 false
         if (a == null) return false;
-        // 如果两棵树根结点值相等，再去看看各自左右子树匹配情况
-        if (a.val == b.val)
-            return recur(a.left, b.left) && recur(a.right, b.right);
         // 如果两棵树根结点值不相等，肯定匹配不上
-        return false;
+        if (a.val != b.val) return false;
+        // 如果两棵树根结点值相等，再去看看各自左右子树匹配情况
+        return recur(a.left, b.left) && recur(a.right, b.right);
+
     }
 }

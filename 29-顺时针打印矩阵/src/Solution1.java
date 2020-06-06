@@ -41,8 +41,8 @@ public class Solution1 {
      * Time：O(MN)，M 为矩阵行数，N 为矩阵列数，相当于遍历一遍。
      * Space：O(MN)，使用了一个大小为 M * N 的队列。
      */
-    Queue<Integer> list = new LinkedList<>();
 
+    Queue<Integer> list = new LinkedList<>();
     public int[] spiralOrder(int[][] m) {
 
         if (m == null || m.length == 0) {
