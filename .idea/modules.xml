@@ -32,6 +32,7 @@
       <module fileurl="file://$PROJECT_DIR$/28-对称的二叉树/28-对称的二叉树.iml" filepath="$PROJECT_DIR$/28-对称的二叉树/28-对称的二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/29-顺时针打印矩阵/29-顺时针打印矩阵.iml" filepath="$PROJECT_DIR$/29-顺时针打印矩阵/29-顺时针打印矩阵.iml" />
       <module fileurl="file://$PROJECT_DIR$/30-包含min函数的栈/30-包含min函数的栈.iml" filepath="$PROJECT_DIR$/30-包含min函数的栈/30-包含min函数的栈.iml" />
+      <module fileurl="file://$PROJECT_DIR$/31-栈的压入、弹出序列/31-栈的压入、弹出序列.iml" filepath="$PROJECT_DIR$/31-栈的压入、弹出序列/31-栈的压入、弹出序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/57-和为s的两个数字/57-和为s的两个数字.iml" filepath="$PROJECT_DIR$/57-和为s的两个数字/57-和为s的两个数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingInterviewChinese2.iml" filepath="$PROJECT_DIR$/CodingInterviewChinese2.iml" />
     </modules>
