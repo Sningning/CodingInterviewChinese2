@@ -1,3 +1,5 @@
+import java.sql.Time;
+
 /**
  * 面试题11. 旋转数组的最小数字
  * 把一个数组最开始的若干个元素搬到数组的末尾，我们称之为数组的旋转。
@@ -11,8 +13,9 @@ public class Solution1 {
 
     public static int minArray(int[] numbers) {
 
-        // 1. 暴力
-        // Time：O(N)；Space：O(1)
+        /* 1. 暴力
+         * Time：O(N)；Space：O(1)
+         */
 
         int res = Integer.MAX_VALUE;
         for (int number : numbers)
