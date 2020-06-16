@@ -15,6 +15,7 @@ import java.util.Queue;
  *
  * 序列化为 "[1,2,3,null,null,4,5]"
  * 这里不限定你的序列 / 反序列化算法执行逻辑，你只需要保证一个二叉树可以被序列化为一个字符串并且将这个字符串反序列化为原始的树结构。
+ *
  * 注意：本题与力扣 297 题相同：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
  *
  * @Author: Song Ningning
