@@ -51,7 +51,7 @@ public class Solution2 {
     int index = 0;
     private TreeNode deserialize(String[] values) {
         if (values[index].equals("null")) {
-            index++;
+            index++;  // 注意：在 return 之前要先更新 index
             return null;
         }
         TreeNode root = new TreeNode(Integer.parseInt(values[index]));
