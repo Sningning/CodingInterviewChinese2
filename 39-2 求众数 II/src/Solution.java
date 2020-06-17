@@ -25,6 +25,8 @@ public class Solution {
 
     /**
      * 要求空间复杂度为 O(1)，因此不能使用哈希表。
+     *
+     * 摩尔投票法
      * 等于 [ n/3 ] 次的元素个数最多有 3 个，而超过 [ n/3 ] 次的元素最多可能出现 2 个。
      */
     public static List<Integer> majorityElement(int[] nums) {
