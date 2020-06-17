@@ -45,6 +45,7 @@
       <module fileurl="file://$PROJECT_DIR$/37-序列化二叉树/37-序列化二叉树.iml" filepath="$PROJECT_DIR$/37-序列化二叉树/37-序列化二叉树.iml" />
       <module fileurl="file://$PROJECT_DIR$/38-字符串的排列/38-字符串的排列.iml" filepath="$PROJECT_DIR$/38-字符串的排列/38-字符串的排列.iml" />
       <module fileurl="file://$PROJECT_DIR$/39-1 数组中出现次数超过一半的数字/39-1 数组中出现次数超过一半的数字.iml" filepath="$PROJECT_DIR$/39-1 数组中出现次数超过一半的数字/39-1 数组中出现次数超过一半的数字.iml" />
+      <module fileurl="file://$PROJECT_DIR$/39-2 求众数 II/39-2 求众数 II.iml" filepath="$PROJECT_DIR$/39-2 求众数 II/39-2 求众数 II.iml" />
       <module fileurl="file://$PROJECT_DIR$/57-和为s的两个数字/57-和为s的两个数字.iml" filepath="$PROJECT_DIR$/57-和为s的两个数字/57-和为s的两个数字.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingInterviewChinese2.iml" filepath="$PROJECT_DIR$/CodingInterviewChinese2.iml" />
     </modules>
