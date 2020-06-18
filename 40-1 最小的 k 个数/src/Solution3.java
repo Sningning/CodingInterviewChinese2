@@ -57,15 +57,30 @@ public class Solution3 {
     }
 
     private int partition(int[] arr, int lo, int hi) {
+        // // 随机初始化 pivot 元素
+        // swap(arr, lo , (int) (Math.random() * (hi - lo + 1)) + lo);
+        // int p = arr[lo];
+        // int i = lo, j = hi + 1;
+        // while (true) {
+        //     while (++i <= hi && arr[i] < p);
+        //     while (--j >= lo && arr[j] > p);
+        //     if (i >= j) break;
+        //     swap(arr, i, j);
+        // }
+        // swap(arr, lo, j);
+        // return j;
+
         // 随机初始化 pivot 元素
         swap(arr, lo , (int) (Math.random() * (hi - lo + 1)) + lo);
         int p = arr[lo];
-        int i = lo, j = hi + 1;
+        int i = lo + 1, j = hi;
         while (true) {
-            while (++i <= hi && arr[i] < p);
-            while (--j >= lo && arr[j] > p);
+            while (i < hi && arr[i] < p) i++;
+            while (j > lo && arr[j] > p) j--;
             if (i >= j) break;
             swap(arr, i, j);
+            i++;
+            j--;
         }
         swap(arr, lo, j);
         return j;
