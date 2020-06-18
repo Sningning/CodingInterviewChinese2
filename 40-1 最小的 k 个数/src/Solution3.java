@@ -57,6 +57,8 @@ public class Solution3 {
     }
 
     private int partition(int[] arr, int lo, int hi) {
+        // 随机初始化 pivot 元素
+        swap(arr, lo , (int) (Math.random() * (hi - lo + 1)) + lo);
         int p = arr[lo];
         int i = lo, j = hi + 1;
         while (true) {
