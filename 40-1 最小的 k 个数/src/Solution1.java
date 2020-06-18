@@ -23,6 +23,7 @@ public class Solution1 {
 
     /**
      * 内置 sort 函数
+     * 这种方法虽然解法并不能让人满意，但是最简单，并且能保证正确性，可以作为检验其他方法的标准。
      */
     public int[] getLeastNumbers(int[] arr, int k) {
         if (arr == null || arr.length == 0 || k == 0)
