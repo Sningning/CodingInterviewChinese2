@@ -19,7 +19,7 @@
  * @Author: Song Ningning
  * @Date: 2020-06-29 22:43
  */
-public class Solution1 {
+public class Solution {
 
     /**
      * 因为是有序数组，考虑用二分查找
@@ -85,7 +85,7 @@ public class Solution1 {
 
 
     public static void main(String[] args) {
-        Solution1 s = new Solution1();
+        Solution s = new Solution();
         int[] arr = {5,7,7,8,8,10};
         System.out.println(s.search(arr, 5));
         System.out.println(s.search(arr, 6));
