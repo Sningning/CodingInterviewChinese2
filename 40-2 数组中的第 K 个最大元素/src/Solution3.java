@@ -29,10 +29,12 @@ public class Solution3 {
         int p = nums[lo];
         int i = lo, j = hi + 1;
         while (true) {
-            while (++i <= hi && nums[i] < p);
-            while (--j >= lo && nums[j] > p);
+            while (i < hi && nums[i] < p) i++;
+            while (j > lo && nums[j] > p) j--;
             if (i >= j) break;
             swap(nums, i, j);
+            i++;
+            j--;
         }
         swap(nums, lo, j);
         return j;
