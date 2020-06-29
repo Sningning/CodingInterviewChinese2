@@ -25,6 +25,9 @@ public class Solution {
      * 因为是有序数组，考虑用二分查找
      * 可以找到 target 在 nums 中第一次出现在位置和最后一次出现的位置，即可确定出出现的次数。
      * 直接套用二分查找模板。
+     *
+     * 时间复杂度：O(logN)
+     * 空间复杂度：O(1)
      */
     public int search(int[] nums, int target) {
         if (nums == null || nums.length == 0) {
