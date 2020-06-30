@@ -13,6 +13,17 @@ import java.util.LinkedList;
  */
 public class CQueue {
 
+    /**
+     * 队列特点是先进先出，栈的特点是后进先出。
+     * 如果执行出队操作，必须把该元素后面所有的元素暂存，然后将该元素删除，
+     * 准备两个栈，pushStack 和 popStack 栈，pushStack 专门用来执行添加数据，popStack 专门用来删除数据。
+     * 如果执行入队操作，直接向 pushStack 中添加即可；
+     * 如果执行出队操作，则从 popStack 中删除元素：
+     *     如果两个栈均为空，返回 -1；
+     *     如果 popStack 为空，需要把 pushStack 中所有元素一次弹出，再依次压入 popStack 中，最后从 popStack 中弹出元素；
+     *     如果 popStack 不为空，则直接从 popStack 中弹出栈顶元素即可。
+     */
+
     Deque<Integer> pushStack;
     Deque<Integer> popStack;
 
