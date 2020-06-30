@@ -87,9 +87,9 @@ public class Solution1 {
     public static void main(String[] args) {
         Solution1 s = new Solution1();
         int[] arr = {5,7,7,8,8,10};
-        System.out.println(s.search(arr, 5));
-        System.out.println(s.search(arr, 6));
-        System.out.println(s.search(arr, 7));
-        System.out.println(s.search(arr, 8));
+        System.out.println(s.search(arr, 5)); // 1
+        System.out.println(s.search(arr, 6)); // 0
+        System.out.println(s.search(arr, 7)); // 2
+        System.out.println(s.search(arr, 8)); // 2
     }
 }
