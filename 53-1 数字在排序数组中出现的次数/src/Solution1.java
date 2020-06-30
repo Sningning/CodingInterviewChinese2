@@ -91,5 +91,19 @@ public class Solution1 {
         System.out.println(s.search(arr, 6)); // 0
         System.out.println(s.search(arr, 7)); // 2
         System.out.println(s.search(arr, 8)); // 2
+
+        System.out.println();
+
+        // 测试 findFirstPos
+        System.out.println(s.findFirstPos(arr, 7)); // 1
+        System.out.println(s.findFirstPos(arr, 11)); // -1
+        System.out.println(s.findFirstPos(arr, 0)); // -1
+
+        System.out.println();
+
+        // 测试 findLastPos
+        System.out.println(s.findLastPos(arr, 7)); // 2
+        System.out.println(s.findLastPos(arr, 11)); // -1
+        System.out.println(s.findLastPos(arr, 0)); // -1
     }
 }
