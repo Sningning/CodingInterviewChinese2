@@ -77,7 +77,7 @@ public class Solution {
                 // 这种情况下，[mid...right] 肯定不包含 target
                 right = mid - 1;
             } else {
-                left = mid;
+                left = mid; // 这里出现了 left = mid，应该取右中位数
             }
         }
         return nums[right] == target ? right : -1;
