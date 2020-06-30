@@ -24,8 +24,8 @@ public class CQueue {
      *     如果 popStack 不为空，则直接从 popStack 中弹出栈顶元素即可。
      */
 
-    Deque<Integer> pushStack;
-    Deque<Integer> popStack;
+    private Deque<Integer> pushStack;
+    private Deque<Integer> popStack;
 
     public CQueue() {
         pushStack = new LinkedList<>();
