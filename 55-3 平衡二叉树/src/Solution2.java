@@ -23,6 +23,9 @@ public class Solution2 {
      *
      * 一个比较好的题解：
      * https://leetcode-cn.com/problems/balanced-binary-tree/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-25/
+     *
+     * 官方题解动画演示：
+     * https://leetcode-cn.com/problems/balanced-binary-tree/solution/ping-heng-er-cha-shu-by-leetcode/
      */
 
     public boolean isBalanced(TreeNode root) {
