@@ -33,6 +33,7 @@ public class Solution2 {
         for (int num : nums) {
             k ^= num;
         }
+        // int mask = k & (-k); 另一种找到 mask 的方法
         int mask = 1;
         while ((k & mask) == 0) {
             mask <<= 1;
