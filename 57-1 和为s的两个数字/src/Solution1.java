@@ -15,6 +15,8 @@ import java.util.Set;
 public class Solution1 {
 
     /**
+     * 暴力法就是固定一个数，然后枚举剩下的数字，依次进行。时间复杂度：O(N)
+     *
      * 哈希表
      * Time：O(N)；Space：O(N)
      */
