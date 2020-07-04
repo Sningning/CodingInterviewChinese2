@@ -16,6 +16,8 @@ import java.util.HashMap;
  * 给定数组的长度范围是 [2, 10000]。
  * 给定的数组是无序的。
  *
+ * https://leetcode-cn.com/problems/set-mismatch/
+ *
  * @Author: Song Ningning
  * @Date: 2020-07-03 23:44
  */
