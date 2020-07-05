@@ -19,7 +19,7 @@ public class Solution2 {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
             if (c == ' ') {
-                // 如果当前是字符且 temp 长度不为空，说明已经构成一个单词
+                // 如果当前是空格且 temp 长度不为空，说明已经构成一个单词
                 // 需要添加到结果中，并重置 temp
                 if (temp.length() != 0) {
                     stack.push(temp.toString());
