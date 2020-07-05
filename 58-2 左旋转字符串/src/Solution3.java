@@ -10,6 +10,9 @@ public class Solution3 {
      * ① 将字符串下标 0 ~ k-1 的字符翻转："b a c d e f g"；
      * ② 将字符串下标 k ~ len-1 的字符翻转："b a g f e d c"
      * ③ 将字符串整体翻转："c d e f g a b"
+     *
+     * 时间复杂度：O(N)
+     * 空间复杂度 O(N)： 新建的辅助 res 使用 O(N) 大小的额外空间。
      */
     public static String reverseLeftWords(String s, int n) {
         int len = s.length();

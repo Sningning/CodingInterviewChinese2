@@ -6,6 +6,8 @@ public class Solution2 {
 
     /**
      * 列表遍历拼接
+     * 时间复杂度 O(N)： 线性遍历 s 并添加，使用线性时间；
+     * 空间复杂度 O(N)： 新建的辅助 res 使用 O(N) 大小的额外空间。
      */
     public static String reverseLeftWords(String s, int n) {
         StringBuilder res = new StringBuilder();

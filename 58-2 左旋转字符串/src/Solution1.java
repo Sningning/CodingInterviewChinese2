@@ -21,6 +21,9 @@ public class Solution1 {
 
     /**
      * 调用 api
+     * 时间复杂度 O(N)，字符串切片函数为线性时间复杂度。
+     * 参考：https://stackoverflow.com/questions/4679746/time-complexity-of-javas-substring
+     * 空间复杂度 O(N)
      */
     public static String reverseLeftWords(String s, int n) {
         return s.substring(n) + s.substring(0, n);
