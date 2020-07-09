@@ -24,8 +24,9 @@ public class Solution2 {
         int res = 0;
         int start = 0, end = 1;
         for (end = 1; end < s.length(); end++) {
-            // 在之前的字串中查找是否存在当前元素
+            // 在之前的无重复子串中查找是否存在当前元素
             for (int i = start; i < end; i++) {
+                // 如果存在，需要将字串起始字符向后移动一个
                 if (s.charAt(i) == s.charAt(end)) {
                     start = i + 1;
                     break;
