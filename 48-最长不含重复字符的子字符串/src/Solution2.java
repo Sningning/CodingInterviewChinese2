@@ -24,6 +24,7 @@ public class Solution2 {
         int res = 0;
         int start = 0, end = 1;
         for (end = 1; end < s.length(); end++) {
+            // 在之前的字串中查找是否存在当前元素
             for (int i = start; i < end; i++) {
                 if (s.charAt(i) == s.charAt(end)) {
                     start = i + 1;
