@@ -82,6 +82,7 @@
       <module fileurl="file://$PROJECT_DIR$/58-2 左旋转字符串/58-2 左旋转字符串.iml" filepath="$PROJECT_DIR$/58-2 左旋转字符串/58-2 左旋转字符串.iml" />
       <module fileurl="file://$PROJECT_DIR$/59-1 滑动窗口的最大值/59-1 滑动窗口的最大值.iml" filepath="$PROJECT_DIR$/59-1 滑动窗口的最大值/59-1 滑动窗口的最大值.iml" />
       <module fileurl="file://$PROJECT_DIR$/59-2 队列的最大值/59-2 队列的最大值.iml" filepath="$PROJECT_DIR$/59-2 队列的最大值/59-2 队列的最大值.iml" />
+      <module fileurl="file://$PROJECT_DIR$/60-n个骰子的点数/60-n个骰子的点数.iml" filepath="$PROJECT_DIR$/60-n个骰子的点数/60-n个骰子的点数.iml" />
       <module fileurl="file://$PROJECT_DIR$/CodingInterviewChinese2.iml" filepath="$PROJECT_DIR$/CodingInterviewChinese2.iml" />
     </modules>
   </component>
