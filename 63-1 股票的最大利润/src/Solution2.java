@@ -29,7 +29,7 @@ public class Solution2 {
         // 之前天数中的最低价
         int minPrice = prices[0];
         // 注意从第二天开始
-        for (int i = 1; i < prices.length; i++) {
+        for (int i = 1; i < len; i++) {
             res = Math.max(res, prices[i] - minPrice);
             minPrice = Math.min(minPrice, prices[i]);
         }
