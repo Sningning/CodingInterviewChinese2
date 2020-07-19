@@ -13,8 +13,8 @@ public class Solution4 {
      */
     public int maxProfit(int[] prices) {
         int len = prices.length;
-        int notHold = 0; // 不持有股票的收益
-        int hold = -prices[0]; // 持有股票的收益
+        int notHold = 0; // 当天不持有股票的收益
+        int hold = -prices[0]; // 当天持有股票的收益
         int preNotHold = notHold; // 前一天不持有股票的收益
         int preHold = hold; // 前一条持有股票的收益
         for (int i = 1; i < len; i++) {
