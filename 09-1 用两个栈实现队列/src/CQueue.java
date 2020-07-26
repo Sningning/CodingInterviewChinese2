@@ -20,7 +20,7 @@ public class CQueue {
      * 如果执行入队操作，直接向 pushStack 中添加即可；
      * 如果执行出队操作，则从 popStack 中删除元素：
      *     如果两个栈均为空，返回 -1；
-     *     如果 popStack 为空，需要把 pushStack 中所有元素一次弹出，再依次压入 popStack 中，最后从 popStack 中弹出元素；
+     *     如果 popStack 为空，需要把 pushStack 中所有元素依次弹出，再依次压入 popStack 中，最后从 popStack 中弹出元素；
      *     如果 popStack 不为空，则直接从 popStack 中弹出栈顶元素即可。
      */
 
