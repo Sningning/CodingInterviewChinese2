@@ -12,7 +12,7 @@ public class Solution2 {
      * 我们统计出矩阵中 <= mid 的数字个数 count，与 k 进行比较：
      *     如果 count < k：说明要找的数字肯定要大于 mid，在右侧，将 left 更新为 mid+1；
      *     如果 count >= k：说明要找的数字在 [left...mid] 这个范围里，将 right 更新为 mid。
-     * 如果 count = k，且 mid 在矩阵中，则 mid 为要找的值。
+     * 一直缩小范围，直到 left == right，此时返回任一即可。
      *
      * 视频：
      * https://www.bilibili.com/video/BV1kK411n7Bi?from=search&seid=15572351607533511481
