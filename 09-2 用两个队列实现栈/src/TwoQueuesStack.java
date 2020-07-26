@@ -18,11 +18,11 @@ public class TwoQueuesStack {
      */
 
     private Queue<Integer> queue;
-    private Queue<Integer> help;
+    private Queue<Integer> helper;
 
     public TwoQueuesStack() {
         this.queue = new LinkedList<>();
-        this.help = new LinkedList<>();
+        this.helper = new LinkedList<>();
     }
 
     public void push(int num) {
@@ -34,10 +34,10 @@ public class TwoQueuesStack {
             throw new RuntimeException("Stack is empty.");
         }
         while (queue.size() != 1) {
-            help.offer(queue.poll());
+            helper.offer(queue.poll());
         }
         int res = queue.poll();
-        help.offer(res);
+        helper.offer(res);
         swap();
         return res;
     }
@@ -47,7 +47,7 @@ public class TwoQueuesStack {
             throw new RuntimeException("Stack is empty.");
         }
         while (queue.size() != 1) {
-            help.offer(queue.poll());
+            helper.offer(queue.poll());
         }
         int res = queue.poll();
         swap();
@@ -56,7 +56,7 @@ public class TwoQueuesStack {
 
     private void swap() {
         Queue<Integer> temp = queue;
-        queue = help;
-        help = temp;
+        queue = helper;
+        helper = temp;
     }
 }
