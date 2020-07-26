@@ -31,7 +31,7 @@ public class Solution {
         for (int i = 0; i < inorder.length; i++) {
             map.put(inorder[i], i);
         }
-        return build(preorder, 0, preorder.length - 1, 0, inorder.length - 1, map);
+        return build(preorder, 0, preLen - 1, 0, inLen - 1, map);
     }
 
     /**
