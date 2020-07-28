@@ -7,6 +7,9 @@ import java.util.Queue;
  */
 public class Solution2 {
 
+    /**
+     * BFS
+     */
     public int movingCount(int m, int n, int k) {
         if (k == 0)
             return 1;
@@ -54,7 +57,7 @@ public class Solution2 {
     public static void main(String[] args) {
         Solution2 s = new Solution2();
         System.out.println(s.sumOfDigits(12, 34));
-        int count = s.movingCount(16, 8, 4);  // 预期 15
+        int count = s.movingCount(16, 8, 4);  // 15
         System.out.println(count);
     }
 

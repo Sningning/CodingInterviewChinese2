@@ -13,7 +13,7 @@
  * @Author: Song Ningning
  * @Date: 2020-05-19 22:26
  */
-public class Solution1 {
+public class Solution1_1 {
 
     /**
      * DFS
@@ -21,35 +21,44 @@ public class Solution1 {
 
     int rows, cols;
     boolean[][] visited;
-    // int[][] d = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    int[][] d = {{1, 0}, {0, 1}, {-1, 0}, {0, -1}};
+    int res = 0;
 
     public int movingCount(int m, int n, int k) {
-        if (k == 0)
-            return 1;
-
         rows = m;
         cols = n;
         visited = new boolean[rows][cols];
-        return dfs(0, 0, k);
+        dfs(0, 0, k);
+        return res;
     }
 
-    private int dfs(int x, int y, int k) {
-        if (!inArea(x, y) || (sumDigit(x) + sumDigit(y) > k) || visited[x][y])
-            return 0;
-
+    private void dfs(int x, int y, int k) {
+        // 递归终止条件
+        if (!inArea(x, y) || visited[x][y] || sumOfDigits(x, y) > k) {
+            return;
+        }
+        // 标记为已访问过
         visited[x][y] = true;
-        return 1 + dfs(x + 1, y, k) +
-                dfs(x - 1, y, k) +
-                dfs(x, y + 1, k) +
-                dfs(x, y - 1, k);
+        // 运行到这里，说明当前位置满足条件，结果加一
+        res++;
+        // 往周围再去探索
+        for (int i = 0; i < 4; i++) {
+            int newX = x + d[i][0];
+            int newY = y + d[i][1];
+            dfs(newX, newY, k);
+        }
     }
 
-    // 计算数字 num 的数位和
-    private int sumDigit(int num) {
+    // 计算两个数字的数位和
+    private int sumOfDigits(int i, int j) {
         int sum = 0;
-        while (num != 0) {
-            sum += num % 10;
-            num /= 10;
+        while (i != 0) {
+            sum += i % 10;
+            i /= 10;
+        }
+        while (j != 0) {
+            sum += j % 10;
+            j /= 10;
         }
         return sum;
     }
@@ -61,7 +70,7 @@ public class Solution1 {
 
     public static void main(String[] args) {
 
-        Solution1 s = new Solution1();
+        Solution1_1 s = new Solution1_1();
         int count = s.movingCount(16, 8, 4);  // 15
         System.out.println(count);
     }
