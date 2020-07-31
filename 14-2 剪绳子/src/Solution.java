@@ -16,24 +16,24 @@ public class Solution {
      * 数据范围变得比较大时，long已经不足以去存储中间结果的状态，所以考虑用贪心来做。
      */
     public static int cuttingRope(int n) {
-
-        if (n <= 2)
-            return 1;
-        if (n == 3)
-            return 2;
-        if (n == 4)
-            return 4;
-        long res = 1;
+        if (n <= 3) {
+            return n - 1;
+        }
+        long res = 1; // 注意
+        if (n % 3 == 1) {
+            res *= 4;
+            n -= 4;
+        } else if (n % 3 == 2) {
+            res *= 2;
+            n -= 2;
+        }
         int mod = (int) 1e9+7;
-        // int mod = 1000000007;
-        while (n >= 5) {
+        while (n != 0) {
             res *= 3;
             res %= mod;
             n -= 3;
         }
-        res *= n;
-        res %= mod;
-        return (int) res;
+        return (int)res;
     }
 
     public static void main(String[] args) {
