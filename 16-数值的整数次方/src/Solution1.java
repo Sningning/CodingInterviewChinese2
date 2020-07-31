@@ -25,13 +25,13 @@ public class Solution1 {
         return fastPow(x, N);
     }
 
-    private static double fastPow(double x, long n) {
-        if (n == 0)
+    private static double fastPow(double base, long exp) {
+        if (exp == 0)
             return 1;
-        if (n == 1)
-            return x;
-        double subRes = fastPow(x, n >> 1);
-        return (n & 1) == 0 ? subRes * subRes : subRes * subRes * x;
+        if (exp == 1)
+            return base;
+        double subRes = fastPow(base, exp >> 1);
+        return (exp & 1) == 0 ? subRes * subRes : subRes * subRes * base;
     }
 
     public static void main(String[] args) {
