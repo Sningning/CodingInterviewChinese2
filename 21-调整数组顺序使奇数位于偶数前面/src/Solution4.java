@@ -8,7 +8,7 @@ public class Solution4 {
 
     public static int[] exchange(int[] nums) {
 
-        /*
+        /**
          * 如果题目要求不改变原来数字的顺序，可以参考插入排序思路。
          * 指针 i 扫描数组：
          *     if 当前为奇数：i++;
