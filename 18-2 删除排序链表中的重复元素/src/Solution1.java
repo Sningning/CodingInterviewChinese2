@@ -16,7 +16,7 @@
  * @Author: Song Ningning
  * @Date: 2020-05-31 22:03
  */
-public class Solution {
+public class Solution1 {
     public ListNode deleteDuplicates(ListNode head) {
         if (head == null) {
             return null;
