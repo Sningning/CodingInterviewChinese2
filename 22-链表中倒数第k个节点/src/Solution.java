@@ -38,14 +38,14 @@ public class Solution {
         ListNode latter = head;
         for (int i = 0; i < k; i++) {
             // 注意：防止 k 大于链表长度结点个数，导致越界
-            if (former == null)
+            if (latter == null)
                 return null;
-            former = former.next;
+            latter = latter.next;
         }
-        while (former != null) {
+        while (latter != null) {
             former = former.next;
             latter = latter.next;
         }
-        return latter;
+        return former;
     }
 }
