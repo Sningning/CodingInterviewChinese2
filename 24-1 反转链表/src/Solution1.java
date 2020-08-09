@@ -14,7 +14,7 @@
  * @Author: Song Ningning
  * @Date: 2020-06-03 10:33
  */
-public class Solution {
+public class Solution1 {
     public ListNode reverseList(ListNode head) {
         ListNode prev = null;
         ListNode next;
