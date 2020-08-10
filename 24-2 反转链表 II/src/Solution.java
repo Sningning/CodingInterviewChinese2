@@ -14,7 +14,7 @@
  * @author: Song Ningning
  * @date: 2020-08-09 20:27
  */
-public class Solution1 {
+public class Solution {
 
     /**
      * 迭代
