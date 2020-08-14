@@ -7,6 +7,9 @@ import java.util.Queue;
  */
 public class Solution2 {
 
+    /**
+     * 层序遍历
+     */
     public TreeNode mirrorTree(TreeNode root) {
         if (root == null)
             return null;
