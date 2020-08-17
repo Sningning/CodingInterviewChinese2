@@ -6,7 +6,7 @@ public class Solution2 {
     /**
      * 归并排序（自底向上直接合并）
      *
-     * 时间复杂度：O(nlogn)，递归：O(logn)，merge过程：O(n)
+     * 时间复杂度：O(nlogn)
      * 空间复杂度：O(logn)
      */
     public ListNode sortList(ListNode head) {
