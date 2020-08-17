@@ -61,6 +61,7 @@ public class Solution2 {
         while (--n != 0 && head != null) {
             head = head.next;
         }
+        // 如果 n 大于链表元素个数，剩余部分为 null，直接返回
         if (head == null) {
             return null;
         }
