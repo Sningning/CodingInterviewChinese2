@@ -7,7 +7,7 @@ public class Solution2 {
      * 归并排序（自底向上直接合并）
      *
      * 时间复杂度：O(nlogn)
-     * 空间复杂度：O(logn)
+     * 空间复杂度：O(1)
      */
     public ListNode sortList(ListNode head) {
         if (head == null || head.next == null) {
