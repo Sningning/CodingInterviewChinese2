@@ -47,11 +47,11 @@ public class Solution1 {
         }
         // 只有右孩子
         if (root.left == null) {
-            helper(root.right, sum - root.val);
+            return helper(root.right, sum - root.val);
         }
         // 只有左孩子
         if (root.right == null) {
-            helper(root.left, sum - root.val);
+            return helper(root.left, sum - root.val);
         }
         // 既有右孩子又有左孩子
         return helper(root.left, sum - root.val) || helper(root.right, sum - root.val);
