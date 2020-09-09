@@ -54,8 +54,8 @@ public class Solution2 {
         }
         // 到了此处，node 可能是不满足条件的叶子节点，那么进入下面两个递归都是直接 return 了；
         // 也可能是非叶子节点，继续完成递归。
-        backtrack(node.left, sum - node.val, path);
-        backtrack(node.right, sum - node.val, path);
+        backtrack1(node.left, sum - node.val, path);
+        backtrack1(node.right, sum - node.val, path);
         path.remove(path.size() - 1);
     }
 }
