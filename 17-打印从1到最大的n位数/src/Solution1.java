@@ -12,8 +12,8 @@
  * 用返回一个整数列表来代替打印
  * n 为正整数
  *
- * @Author: Song Ningning
- * @Date: 2020-05-30 10:20
+ * @author: Song Ningning
+ * @date: 2020-05-30 10:20
  */
 public class Solution1 {
 

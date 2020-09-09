@@ -1,8 +1,8 @@
 import java.util.Arrays;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-17 9:38
+ * @author: Song Ningning
+ * @date: 2020-06-17 9:38
  */
 public class Solution2 {
     /**

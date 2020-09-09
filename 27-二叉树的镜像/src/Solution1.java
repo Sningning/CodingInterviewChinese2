@@ -14,8 +14,8 @@
  *
  * 注意：本题与力扣 226 题相同：https://leetcode-cn.com/problems/invert-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-05 11:11
+ * @author: Song Ningning
+ * @date: 2020-06-05 11:11
  */
 public class Solution1 {
 

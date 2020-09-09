@@ -16,8 +16,8 @@ import java.util.HashMap;
  *
  * 注意：本题与力扣 169 题相同：https://leetcode-cn.com/problems/majority-element/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-17 9:23
+ * @author: Song Ningning
+ * @date: 2020-06-17 9:23
  */
 public class Solution1 {
 

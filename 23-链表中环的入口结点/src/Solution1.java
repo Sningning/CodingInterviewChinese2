@@ -7,8 +7,8 @@ import java.util.Set;
  *
  * 注意：本题与力扣 142 题相同：https://leetcode-cn.com/problems/linked-list-cycle-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-03 10:22
+ * @author: Song Ningning
+ * @date: 2020-06-03 10:22
  */
 public class Solution1 {
 

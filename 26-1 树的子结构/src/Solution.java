@@ -7,8 +7,8 @@
  * 限制：
  * 0 <= 节点个数 <= 10000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-05 10:02
+ * @author: Song Ningning
+ * @date: 2020-06-05 10:02
  */
 public class Solution {
 

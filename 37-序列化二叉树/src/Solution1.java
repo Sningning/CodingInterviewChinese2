@@ -18,8 +18,8 @@ import java.util.Queue;
  *
  * 注意：本题与力扣 297 题相同：https://leetcode-cn.com/problems/serialize-and-deserialize-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-14 15:36
+ * @author: Song Ningning
+ * @date: 2020-06-14 15:36
  */
 public class Solution1 {
 

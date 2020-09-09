@@ -15,8 +15,8 @@
  * 限制：
  * 1 ≤ k ≤ 二叉搜索树元素个数
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 10:24
+ * @author: Song Ningning
+ * @date: 2020-07-01 10:24
  */
 public class Solution1 {
 

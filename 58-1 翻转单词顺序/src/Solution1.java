@@ -25,8 +25,8 @@
  * 注意：本题与主站 151 题相同：https://leetcode-cn.com/problems/reverse-words-in-a-string/
  * 注意：此题对比原题有改动
  *
- * @Author: Song Ningning
- * @Date: 2020-07-05 9:58
+ * @author: Song Ningning
+ * @date: 2020-07-05 9:58
  */
 public class Solution1 {
 

@@ -5,8 +5,8 @@
  * 注意：本题与力扣 142. 环形链表 II 相同
  * https://leetcode-cn.com/problems/linked-list-cycle-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-03 10:13
+ * @author: Song Ningning
+ * @date: 2020-06-03 10:13
  */
 public class Solution2 {
 

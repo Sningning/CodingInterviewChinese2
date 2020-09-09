@@ -10,8 +10,8 @@
  *
  * 本题与力扣 343 题相同：https://leetcode-cn.com/problems/integer-break/
  *
- * @Author: Song Ningning
- * @Date: 2020-05-28 12:46
+ * @author: Song Ningning
+ * @date: 2020-05-28 12:46
  */
 public class Solution1 {
 

@@ -19,8 +19,8 @@ import java.util.Queue;
  *
  * 注意：本题与力扣 54 题相同：https://leetcode-cn.com/problems/spiral-matrix/
  *
- * @Author: Song Ningning
- * @Date: 2020-05-12 12:45
+ * @author: Song Ningning
+ * @date: 2020-05-12 12:45
  */
 public class Solution1 {
 

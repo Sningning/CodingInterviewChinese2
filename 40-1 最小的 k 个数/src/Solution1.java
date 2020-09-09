@@ -16,8 +16,8 @@ import java.util.Arrays;
  * 0 <= k <= arr.length <= 10000
  * 0 <= arr[i] <= 10000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-18 11:09
+ * @author: Song Ningning
+ * @date: 2020-06-18 11:09
  */
 public class Solution1 {
 

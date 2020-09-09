@@ -30,8 +30,8 @@
  *
  * 注意：本题与主站 110 题相同：https://leetcode-cn.com/problems/balanced-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 18:15
+ * @author: Song Ningning
+ * @date: 2020-07-01 18:15
  */
 public class Solution1 {
 

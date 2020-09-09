@@ -13,8 +13,8 @@ import java.util.LinkedHashMap;
  *  
  * 注意：本题与力扣 138 题相同：https://leetcode-cn.com/problems/copy-list-with-random-pointer/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-13 14:50
+ * @author: Song Ningning
+ * @date: 2020-06-13 14:50
  */
 public class Solution1 {
     /**

@@ -12,8 +12,8 @@
  *
  * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-03 10:39
+ * @author: Song Ningning
+ * @date: 2020-06-03 10:39
  */
 public class Solution1 {
 

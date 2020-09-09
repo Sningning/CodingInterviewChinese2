@@ -16,8 +16,8 @@
  *
  * 注意：本题与力扣 53 题相同：https://leetcode-cn.com/problems/maximum-subarray/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-21 10:11
+ * @author: Song Ningning
+ * @date: 2020-06-21 10:11
  */
 public class Solution1 {
 

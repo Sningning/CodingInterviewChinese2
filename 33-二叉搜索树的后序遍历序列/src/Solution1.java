@@ -20,8 +20,8 @@
  * 提示：
  * 数组长度 <= 1000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 16:39
+ * @author: Song Ningning
+ * @date: 2020-06-09 16:39
  */
 public class Solution1 {
 

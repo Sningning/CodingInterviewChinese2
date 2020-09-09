@@ -19,8 +19,8 @@
  *
  * 视频讲解：https://www.bilibili.com/video/BV1uJ411573j?from=search&seid=17043492097021581454
  *
- * @Author: Song Ningning
- * @Date: 2020-06-22 8:46
+ * @author: Song Ningning
+ * @date: 2020-06-22 8:46
  */
 public class Solution {
 

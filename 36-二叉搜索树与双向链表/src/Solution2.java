@@ -2,8 +2,8 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-14 14:19
+ * @author: Song Ningning
+ * @date: 2020-06-14 14:19
  */
 public class Solution2 {
 

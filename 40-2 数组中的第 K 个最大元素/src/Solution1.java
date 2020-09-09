@@ -17,8 +17,8 @@ import java.util.Arrays;
  *
  * https://leetcode-cn.com/problems/kth-largest-element-in-an-array/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-18 17:24
+ * @author: Song Ningning
+ * @date: 2020-06-18 17:24
  */
 public class Solution1 {
 

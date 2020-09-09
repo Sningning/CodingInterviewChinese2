@@ -30,8 +30,8 @@ import java.util.PriorityQueue;
  * 最多会对 addNum、findMedia进行 50000 次调用。
  * 注意：本题与力扣 295 题相同：https://leetcode-cn.com/problems/find-median-from-data-stream/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-19 11:18
+ * @author: Song Ningning
+ * @date: 2020-06-19 11:18
  */
 public class Solution1 {
 

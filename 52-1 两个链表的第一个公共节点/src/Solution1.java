@@ -12,8 +12,8 @@ import java.util.LinkedList;
  * 程序尽量满足 O(n) 时间复杂度，且仅用 O(1) 内存。
  * 本题与主站 160 题相同：https://leetcode-cn.com/problems/intersection-of-two-linked-lists/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-29 12:10
+ * @author: Song Ningning
+ * @date: 2020-06-29 12:10
  */
 public class Solution1 {
 

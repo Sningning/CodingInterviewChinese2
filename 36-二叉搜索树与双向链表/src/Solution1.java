@@ -2,8 +2,8 @@
  * 面试题36. 二叉搜索树与双向链表
  * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的循环双向链表。要求不能创建任何新的节点，只能调整树中节点指针的指向。
  *
- * @Author: Song Ningning
- * @Date: 2020-06-14 12:47
+ * @author: Song Ningning
+ * @date: 2020-06-14 12:47
  */
 public class Solution1 {
 

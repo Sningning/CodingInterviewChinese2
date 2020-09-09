@@ -2,8 +2,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-06 20:53
+ * @author: Song Ningning
+ * @date: 2020-06-06 20:53
  */
 public class MinStack3 {
 

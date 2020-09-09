@@ -20,8 +20,8 @@
  * 节点总数 <= 10000
  * 注意：本题与主站 104 题相同：https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 15:32
+ * @author: Song Ningning
+ * @date: 2020-07-01 15:32
  */
 public class Solution1 {
 

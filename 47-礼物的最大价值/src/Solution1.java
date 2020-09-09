@@ -18,8 +18,8 @@
  * 0 < grid.length <= 200
  * 0 < grid[0].length <= 200
  *
- * @Author: Song Ningning
- * @Date: 2020-06-27 20:19
+ * @author: Song Ningning
+ * @date: 2020-06-27 20:19
  */
 public class Solution1 {
 

@@ -9,8 +9,8 @@ import java.util.Set;
  * 1 <= nums.length <= 10^5
  * 1 <= nums[i] <= 10^6
  *
- * @Author: Song Ningning
- * @Date: 2020-05-21 8:27
+ * @author: Song Ningning
+ * @date: 2020-05-21 8:27
  */
 public class Solution1 {
 

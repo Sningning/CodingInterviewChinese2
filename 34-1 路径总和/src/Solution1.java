@@ -18,8 +18,8 @@
  *
  * https://leetcode-cn.com/problems/path-sum/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-12 9:16
+ * @author: Song Ningning
+ * @date: 2020-06-12 9:16
  */
 public class Solution1 {
 

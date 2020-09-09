@@ -8,8 +8,8 @@ import java.util.HashMap;
  * 与力扣 105 题 从前序与中序遍历序列构造二叉树
  * https://leetcode-cn.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/
  *
- * @Author: Song Ningning
- * @Date: 2020-05-16 19:23
+ * @author: Song Ningning
+ * @date: 2020-05-16 19:23
  */
 public class Solution {
 

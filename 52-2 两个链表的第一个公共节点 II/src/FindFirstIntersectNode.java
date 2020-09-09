@@ -5,8 +5,8 @@
  * 要求：
  * 如果链表 1 的长度为 m，链表 2 的长度为 n，时间复杂度请达到 O(m+n)，额外空间复杂度请达到O(1)。
  *
- * @Author: Song Ningning
- * @Date: 2020-06-29 19:21
+ * @author: Song Ningning
+ * @date: 2020-06-29 19:21
  */
 public class FindFirstIntersectNode {
 

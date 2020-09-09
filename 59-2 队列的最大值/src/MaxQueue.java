@@ -23,8 +23,8 @@ import java.util.Queue;
  * 1 <= push_back,pop_front,max_value的总操作数 <= 10000
  * 1 <= value <= 10^5
  *
- * @Author: Song Ningning
- * @Date: 2020-07-09 18:45
+ * @author: Song Ningning
+ * @date: 2020-07-09 18:45
  */
 
 /**

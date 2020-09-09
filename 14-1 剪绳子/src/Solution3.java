@@ -1,6 +1,6 @@
 /**
- * @Author: Song Ningning
- * @Date: 2020-05-28 15:09
+ * @author: Song Ningning
+ * @date: 2020-05-28 15:09
  */
 public class Solution3 {
 

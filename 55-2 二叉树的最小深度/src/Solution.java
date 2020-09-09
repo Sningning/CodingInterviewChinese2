@@ -17,8 +17,8 @@
  *
  * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 17:07
+ * @author: Song Ningning
+ * @date: 2020-07-01 17:07
  */
 public class Solution {
 

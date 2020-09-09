@@ -11,8 +11,8 @@
  *
  * 注意：本题与力扣 21 题相同：https://leetcode-cn.com/problems/merge-two-sorted-lists/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-04 15:11
+ * @author: Song Ningning
+ * @date: 2020-06-04 15:11
  */
 public class Solution1 {
 

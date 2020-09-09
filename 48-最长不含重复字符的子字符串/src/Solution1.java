@@ -26,8 +26,8 @@ import java.util.Queue;
  *
  * 注意：本题与力扣 3 题相同：https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-28 9:30
+ * @author: Song Ningning
+ * @date: 2020-06-28 9:30
  */
 public class Solution1 {
 

@@ -28,8 +28,8 @@ import java.util.List;
  * 提示：
  * 节点总数 <= 1000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 11:06
+ * @author: Song Ningning
+ * @date: 2020-06-09 11:06
  */
 public class Solution2 {
 

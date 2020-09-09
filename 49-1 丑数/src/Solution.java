@@ -25,8 +25,8 @@
  *
  * https://leetcode-cn.com/problems/ugly-number/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-28 17:46
+ * @author: Song Ningning
+ * @date: 2020-06-28 17:46
  */
 public class Solution {
 

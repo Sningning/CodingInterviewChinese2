@@ -25,8 +25,8 @@ import java.util.Queue;
  *
  * 节点总数 <= 1000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 9:23
+ * @author: Song Ningning
+ * @date: 2020-06-09 9:23
  */
 public class Solution {
 

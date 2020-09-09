@@ -24,8 +24,8 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/path-sum-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-12 15:08
+ * @author: Song Ningning
+ * @date: 2020-06-12 15:08
  */
 public class Solution1 {
 

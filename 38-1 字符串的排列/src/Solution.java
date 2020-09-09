@@ -18,8 +18,8 @@ import java.util.List;
  *
  * 注意：本题与力扣 47 题相同：https://leetcode-cn.com/problems/permutations-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-16 11:01
+ * @author: Song Ningning
+ * @date: 2020-06-16 11:01
  */
 public class Solution {
 

@@ -21,8 +21,8 @@
  *
  * 注意：本题与力扣 101 题相同：https://leetcode-cn.com/problems/symmetric-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-06 19:17
+ * @author: Song Ningning
+ * @date: 2020-06-06 19:17
  */
 public class Solution1 {
 

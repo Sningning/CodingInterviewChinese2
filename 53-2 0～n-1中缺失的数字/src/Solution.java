@@ -14,8 +14,8 @@
  * 限制：
  * 1 <= 数组长度 <= 10000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-30 11:21
+ * @author: Song Ningning
+ * @date: 2020-06-30 11:21
  */
 public class Solution {
 

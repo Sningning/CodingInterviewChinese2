@@ -6,8 +6,8 @@
  * -100.0 < x < 100.0
  * n 是 32 位有符号整数，其数值范围是 [−2^31, (2^31) − 1] 。
  *
- * @Author: Song Ningning
- * @Date: 2020-05-30 9:48
+ * @author: Song Ningning
+ * @date: 2020-05-30 9:48
  */
 public class Solution1 {
 

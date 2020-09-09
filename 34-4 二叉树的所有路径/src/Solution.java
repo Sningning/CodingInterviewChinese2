@@ -23,8 +23,8 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/binary-tree-paths/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-12 17:03
+ * @author: Song Ningning
+ * @date: 2020-06-12 17:03
  */
 public class Solution {
 

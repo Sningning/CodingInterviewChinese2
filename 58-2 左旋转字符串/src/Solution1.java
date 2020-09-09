@@ -14,8 +14,8 @@
  * 限制：
  * 1 <= k < s.length <= 10000
  *
- * @Author: Song Ningning
- * @Date: 2020-07-05 15:41
+ * @author: Song Ningning
+ * @date: 2020-07-05 15:41
  */
 public class Solution1 {
 
