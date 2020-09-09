@@ -54,6 +54,7 @@ public class Solution1 {
             return;
         }
         // 递归终止条件：到达了根结点但不满足条件
+        // 不加该判断也可以，只不过加上判断后，可以提前退出，不需要再进行后面的递归操作
         if (node.left == null && node.right == null) {
             return;
         }
