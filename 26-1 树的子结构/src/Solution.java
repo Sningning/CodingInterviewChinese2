@@ -16,18 +16,18 @@ public class Solution {
         // 因为空树不是任意一个树的子结构，所以只要有一个为空，就不能构成子树
         if (A == null || B == null)
             return false;
-        // 考虑当前结点情况
+        // 考虑当前节点情况
         if (recur(A, B))
             return true;
-        // 如果当前结点匹配不上，考虑 A 的左右孩子与 B 匹配
+        // 如果当前节点匹配不上，考虑 A 的左右孩子与 B 匹配
         return isSubStructure(A.left, B) || isSubStructure(A.right, B);
     }
 
     /**
-     * 判断当前以 b 为根结点的二叉树是否是以 a 为根结点的二叉树的子树
+     * 判断当前以 b 为根节点的二叉树是否是以 a 为根节点的二叉树的子树
      * 只考虑当前 a 和 b 匹配情况
-     * @param a 根结点 a
-     * @param b 根结点 b
+     * @param a 根节点 a
+     * @param b 根节点 b
      * @return b 是否是 a 的子树
      */
     private boolean recur(TreeNode a, TreeNode b) {
@@ -36,9 +36,9 @@ public class Solution {
         if (b == null) return true;
         // B 还没找完，A 已经空了，返回 false
         if (a == null) return false;
-        // 如果两棵树根结点值不相等，肯定匹配不上
+        // 如果两棵树根节点值不相等，肯定匹配不上
         if (a.val != b.val) return false;
-        // 如果两棵树根结点值相等，再去看看各自左右子树匹配情况
+        // 如果两棵树根节点值相等，再去看看各自左右子树匹配情况
         return recur(a.left, b.left) && recur(a.right, b.right);
 
     }

@@ -6,9 +6,9 @@ public class Solution2 {
 
     /**
      * 双指针
-     * 分别遍历两个链表，定义 countA 和 countB 记录两个链表的长度，再定义 tailA 和 tailB 记录两个链表的尾结点。
-     * 如果两个尾结点不同，链表肯定不相交；
-     * 如果尾结点相同，计算两个链表的长度差 n，先在较长的链表上走 n 个结点，然后同时走，两个指针肯定会在第一个交点处相交。
+     * 分别遍历两个链表，定义 countA 和 countB 记录两个链表的长度，再定义 tailA 和 tailB 记录两个链表的尾节点。
+     * 如果两个尾节点不同，链表肯定不相交；
+     * 如果尾节点相同，计算两个链表的长度差 n，先在较长的链表上走 n 个节点，然后同时走，两个指针肯定会在第一个交点处相交。
      *
      * 时间复杂度：O(m + n)
      * 空间复杂度：O(1)
@@ -36,7 +36,7 @@ public class Solution2 {
                 tailB = curB;
                 curB = curB.next;
             }
-            // 如果尾结点不同，肯定不相交
+            // 如果尾节点不同，肯定不相交
             if (tailA != tailB) {
                 return null;
             }
@@ -82,7 +82,7 @@ public class Solution2 {
                 count--;
                 curB = curB.next;
             }
-            // 如果尾结点不同，肯定不相交
+            // 如果尾节点不同，肯定不相交
             if (curA != curB) {
                 return null;
             }

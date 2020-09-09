@@ -44,7 +44,7 @@ public class Solution {
             return;
         }
         path.add(node.val);
-        // 到达了叶子结点
+        // 到达了叶子节点
         if (node.left == null && node.right == null) {
             StringBuilder builder = new StringBuilder();
             for (Integer num : path) {

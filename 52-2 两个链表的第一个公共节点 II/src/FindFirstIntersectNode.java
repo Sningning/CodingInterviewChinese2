@@ -1,5 +1,5 @@
 /**
- * 52-2 两个链表节点的第一个公共结点 II
+ * 52-2 两个链表节点的第一个公共节点 II
  * 输入两个链表，找出它们的第一个公共节点。
  *
  * 要求：
@@ -18,12 +18,12 @@ public class FindFirstIntersectNode {
      *     如果一个有环、一个无环，由于是单链表，所以两个链表不可能相交。
      *
      * 现在分析都有环的情况，两个单链表都有环，有 3 种拓扑结构，如图片所示，
-     * ① 两个链表各自成环；② 两个链表有唯一一个入环结点；③ 两个链表有两个入环结点。
+     * ① 两个链表各自成环；② 两个链表有唯一一个入环节点；③ 两个链表有两个入环节点。
      *
      * 下面是怎么区分这 3 种结构：
-     * loop1 代表 head1 链表的入环结点；loop2 代表 head2 链表的入环结点。
+     * loop1 代表 head1 链表的入环节点；loop2 代表 head2 链表的入环节点。
      *     如果 loop1 == loop2，则肯定是第 ② 种结构，第 ② 种结构就可以使用两个无环链表相交的方法，
-     * 只不过把 loop1 或 loop2 当做无环链表相交方法中最后的空结点；
+     * 只不过把 loop1 或 loop2 当做无环链表相交方法中最后的空节点；
      *     如果 loop1 != loop2，则为第 ① 种或第 ③ 种：
      *         从 loop1 开始往下走，如果绕了一圈都没有与 loop2 相遇，则是第 ① 种结构，没有交点；
      *         从 loop1 开始往下走，如果与 loop2 相遇了，则是第 ③ 种结构，返回 loop1 或 loop2。
@@ -31,18 +31,18 @@ public class FindFirstIntersectNode {
      */
 
     /**
-     * 找出两个单链表的第一个公共结点
-     * @param head1 链表 1 的头结点
-     * @param head2 链表 2 的头结点
-     * @return head1 和 head2 的第一个公共结点，没有则返回 null
+     * 找出两个单链表的第一个公共节点
+     * @param head1 链表 1 的头节点
+     * @param head2 链表 2 的头节点
+     * @return head1 和 head2 的第一个公共节点，没有则返回 null
      */
     public static ListNode getIntersectNode(ListNode head1, ListNode head2) {
         if (head1 == null || head2 == null) {
             return null;
         }
-        // 获得链表 1 的第一个入环结点 loop1
+        // 获得链表 1 的第一个入环节点 loop1
         ListNode loop1 = getLoopNode(head1);
-        // 获得链表 2 的第一个入环结点 loop2
+        // 获得链表 2 的第一个入环节点 loop2
         ListNode loop2 = getLoopNode(head2);
         // 两个单链表均无环
         if (loop1 == null && loop2 == null){
@@ -58,9 +58,9 @@ public class FindFirstIntersectNode {
 
 
     /**
-     * 返回单链表的第一个入环结点
-     * @param head 单链表头结点
-     * @return head 的第一个入环结点，没有返回 null
+     * 返回单链表的第一个入环节点
+     * @param head 单链表头节点
+     * @return head 的第一个入环节点，没有返回 null
      */
     private static ListNode getLoopNode(ListNode head) {
         // 快慢指针
@@ -86,10 +86,10 @@ public class FindFirstIntersectNode {
 
 
     /**
-     * 返回两个无环单链表的第一个相交结点
-     * @param head1 链表 1 的头结点
-     * @param head2 链表 2 的头结点
-     * @return 两个无环单链表的第一个相交结点，没有返回 null
+     * 返回两个无环单链表的第一个相交节点
+     * @param head1 链表 1 的头节点
+     * @param head2 链表 2 的头节点
+     * @return 两个无环单链表的第一个相交节点，没有返回 null
      */
     private static ListNode noLoop(ListNode head1, ListNode head2) {
         if (head1 == null || head2 == null) {
@@ -106,18 +106,18 @@ public class FindFirstIntersectNode {
 
 
     /**
-     * 返回两个有环单链表的第一个相交结点
-     * @param head1 链表 1 的头结点
-     * @param loop1 链表 1 的入环结点
-     * @param head2 链表 2 的头结点
-     * @param loop2 链表 2 的入环结点
-     * @return 链表 1 和链表 2 的第一个相交结点，没有返回 null
+     * 返回两个有环单链表的第一个相交节点
+     * @param head1 链表 1 的头节点
+     * @param loop1 链表 1 的入环节点
+     * @param head2 链表 2 的头节点
+     * @param loop2 链表 2 的入环节点
+     * @return 链表 1 和链表 2 的第一个相交节点，没有返回 null
      */
     private static ListNode bothLoop(ListNode head1, ListNode loop1, ListNode head2, ListNode loop2) {
         ListNode cur1;
         ListNode cur2;
         // 第 ② 种拓扑结构
-        // 和无环链表相交问题类似，将入环结点看做 null
+        // 和无环链表相交问题类似，将入环节点看做 null
         if (loop1 == loop2) {
             cur1 = head1;
             cur2 = head2;
@@ -125,7 +125,7 @@ public class FindFirstIntersectNode {
                 return null;
             }
             while (cur1 != cur2) {
-                // 将入环结点看做 null
+                // 将入环节点看做 null
                 cur1 = cur1 == loop1 ? head2 : cur1.next;
                 cur2 = cur2 == loop1 ? head1 : cur2.next;
             }

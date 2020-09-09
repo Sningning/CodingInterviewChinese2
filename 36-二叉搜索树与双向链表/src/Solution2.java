@@ -9,7 +9,7 @@ public class Solution2 {
 
     /**
      * 迭代
-     * Time：O(N) 所有结点遍历一遍
+     * Time：O(N) 所有节点遍历一遍
      * Space：O(N)
      */
     public Node treeToDoublyList(Node root) {

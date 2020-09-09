@@ -46,20 +46,20 @@ public class Solution1 {
     }
 
     private void backtrack(TreeNode node, int sum, List<Integer> path) {
-        // 递归终止条件：到达了根结点且满足条件
+        // 递归终止条件：到达了根节点且满足条件
         if (node.left == null && node.right == null && node.val == sum) {
             path.add(node.val);
             res.add(new LinkedList<>(path));
             path.remove(path.size() - 1);
             return;
         }
-        // 递归终止条件：到达了根结点但不满足条件
+        // 递归终止条件：到达了根节点但不满足条件
         // 不加该判断也可以，只不过加上判断后，可以提前退出，不需要再进行后面的递归操作
         if (node.left == null && node.right == null) {
             return;
         }
 
-        // 能运行到这里，说明 node 不是根结点，将当前结点的值加入 path
+        // 能运行到这里，说明 node 不是根节点，将当前节点的值加入 path
         path.add(node.val);
 
         // 左孩子不为空就继续走

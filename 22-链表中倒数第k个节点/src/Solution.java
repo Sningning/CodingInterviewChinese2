@@ -17,8 +17,8 @@ public class Solution {
 
         /*
          * 双指针
-         * i 和 j，由于倒数第一个结点是尾结点，所以先让 j 领先 i k 个结点，然后 i 和 j 一起往后走，
-         * j 走到空结点，此时 i 结点对应的就是所求结点。
+         * i 和 j，由于倒数第一个节点是尾节点，所以先让 j 领先 i k 个节点，然后 i 和 j 一起往后走，
+         * j 走到空节点，此时 i 节点对应的就是所求节点。
          *
          * i
          * 1,2,3,4,5 （k=2）
@@ -37,7 +37,7 @@ public class Solution {
         ListNode former = head;
         ListNode latter = head;
         for (int i = 0; i < k; i++) {
-            // 注意：防止 k 大于链表长度结点个数，导致越界
+            // 注意：防止 k 大于链表长度节点个数，导致越界
             if (latter == null)
                 return null;
             latter = latter.next;

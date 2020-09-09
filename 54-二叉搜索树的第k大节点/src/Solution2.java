@@ -9,7 +9,7 @@ public class Solution2 {
 
     /**
      * 迭代
-     * 将中序遍历代码中访问左右结点的顺序颠倒
+     * 将中序遍历代码中访问左右节点的顺序颠倒
      */
     public int kthLargest(TreeNode root, int k) {
         Deque<TreeNode> stack = new LinkedList<>();

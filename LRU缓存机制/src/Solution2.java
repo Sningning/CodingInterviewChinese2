@@ -58,7 +58,7 @@ public class Solution2 {
     }
 
     /**
-     * 如果存在，把当前结点移动到双向链表的头部
+     * 如果存在，把当前节点移动到双向链表的头部
      * @param key
      * @return
      */
