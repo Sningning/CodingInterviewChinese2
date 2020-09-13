@@ -38,7 +38,7 @@ public class Solution1 {
         }
         dfs(cur.left);
         if (prev == null) {
-            // 走到了最左侧，头节点即为当前节点
+            // 走到了最左侧，头节点即为当前节点,该代码只会执行一次
             head = cur;
         } else {
             // 双向连接
