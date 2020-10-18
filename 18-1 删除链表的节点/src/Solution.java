@@ -10,8 +10,8 @@
  * 题目保证链表中节点的值互不相同
  * 若使用 C 或 C++ 语言，你不需要 free 或 delete 被删除的节点
  *
- * @Author: Song Ningning
- * @Date: 2020-05-31 21:32
+ * @author: Song Ningning
+ * @date: 2020-05-31 21:32
  */
 public class Solution {
 

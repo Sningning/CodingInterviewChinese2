@@ -13,15 +13,15 @@ import java.util.LinkedHashMap;
  *  
  * 注意：本题与力扣 138 题相同：https://leetcode-cn.com/problems/copy-list-with-random-pointer/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-13 14:50
+ * @author: Song Ningning
+ * @date: 2020-06-13 14:50
  */
 public class Solution1 {
     /**
      * 方法一：哈希表
-     * 哈希表中的 key 存源结点，value 存源结点的拷贝；
-     * 第一次遍历链表，将每个源结点和其拷贝存入哈希表中；
-     * 第二次遍历链表，完成每个结点 next 和 random 指针的连接.
+     * 哈希表中的 key 存源节点，value 存源节点的拷贝；
+     * 第一次遍历链表，将每个源节点和其拷贝存入哈希表中；
+     * 第二次遍历链表，完成每个节点 next 和 random 指针的连接.
      *
      * Time：O(N)
      * Space：O(N)
@@ -38,9 +38,9 @@ public class Solution1 {
         }
         cur = head;
         while (cur != null) {
-            // 拷贝结点的 next = 源节点的 next 对应的 value
+            // 拷贝节点的 next = 源节点的 next 对应的 value
             map.get(cur).next = map.get(cur.next);
-            // 拷贝结点的 random = 源节点的 random 对应的 value
+            // 拷贝节点的 random = 源节点的 random 对应的 value
             map.get(cur).random = map.get(cur.random);
             cur = cur.next;
         }

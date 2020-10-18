@@ -1,6 +1,6 @@
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-13 14:52
+ * @author: Song Ningning
+ * @date: 2020-06-13 14:52
  */
 public class Solution2 {
     /**
@@ -23,8 +23,8 @@ public class Solution2 {
         cur = head;
         while (cur != null) {
             // 注意：一定要检查 cur.random 是否为空，否则会出现空指针异常
-            // 如果 cur.random 为空，那么 cur 的克隆结点的 random 也需要为空
-            // 但是初始化克隆结点时，random 默认为空，因此不需要处理
+            // 如果 cur.random 为空，那么 cur 的克隆节点的 random 也需要为空
+            // 但是初始化克隆节点时，random 默认为空，因此不需要处理
             if (cur.random != null) {
                 cur.next.random = cur.random.next;
             }
@@ -42,8 +42,8 @@ public class Solution2 {
             cloneCur.next = cloneCur.next.next;
             cloneCur = cloneCur.next;
         }
-        // 此时，处理完了克隆链表，但是源链表最后一个结点还指向着克隆链表最后一个结点
-        // 应该将源链表最后一个结点的 next 指向 null
+        // 此时，处理完了克隆链表，但是源链表最后一个节点还指向着克隆链表最后一个节点
+        // 应该将源链表最后一个节点的 next 指向 null
         cur.next = null;
         return cloneHead;
     }

@@ -17,8 +17,8 @@
  * 输出结果可能非常大，所以你需要返回一个字符串而不是整数
  * 拼接起来的数字可能会有前导 0，最后结果不需要去掉前导 0
  *
- * @Author: Song Ningning
- * @Date: 2020-06-24 9:29
+ * @author: Song Ningning
+ * @date: 2020-06-24 9:29
  */
 public class Solution1 {
 

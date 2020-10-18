@@ -15,8 +15,8 @@
  *
  * 注意：本题与主站 264 题相同：https://leetcode-cn.com/problems/ugly-number-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-28 16:35
+ * @author: Song Ningning
+ * @date: 2020-06-28 16:35
  */
 public class Solution {
 

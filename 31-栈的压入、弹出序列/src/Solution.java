@@ -25,8 +25,8 @@ import java.util.LinkedList;
  *
  * 注意：本题与力扣 946 题相同：https://leetcode-cn.com/problems/validate-stack-sequences/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-08 21:55
+ * @author: Song Ningning
+ * @date: 2020-06-08 21:55
  */
 public class Solution {
 

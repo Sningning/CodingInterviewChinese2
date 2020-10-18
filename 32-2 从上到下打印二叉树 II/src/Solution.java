@@ -26,8 +26,8 @@ import java.util.Queue;
  *
  * 注意：本题与力扣 102 题相同：https://leetcode-cn.com/problems/binary-tree-level-order-traversal/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 9:41
+ * @author: Song Ningning
+ * @date: 2020-06-09 9:41
  */
 public class Solution {
     public List<List<Integer>> levelOrder(TreeNode root) {

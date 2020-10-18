@@ -1,8 +1,8 @@
 import java.util.LinkedHashMap;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-28 21:53
+ * @author: Song Ningning
+ * @date: 2020-06-28 21:53
  */
 public class Solution2 {
 

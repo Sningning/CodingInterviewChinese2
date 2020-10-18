@@ -11,8 +11,8 @@
  *
  * 注意：本题与力扣 206 题相同：https://leetcode-cn.com/problems/reverse-linked-list/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-03 10:33
+ * @author: Song Ningning
+ * @date: 2020-06-03 10:33
  */
 public class Solution1 {
 

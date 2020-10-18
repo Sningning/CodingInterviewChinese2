@@ -20,8 +20,8 @@ import java.util.PriorityQueue;
  *
  * https://leetcode-cn.com/problems/kth-smallest-element-in-a-sorted-matrix/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-02 15:06
+ * @author: Song Ningning
+ * @date: 2020-07-02 15:06
  */
 public class Solution1 {
 

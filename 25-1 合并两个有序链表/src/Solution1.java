@@ -11,14 +11,14 @@
  *
  * 注意：本题与力扣 21 题相同：https://leetcode-cn.com/problems/merge-two-sorted-lists/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-04 15:11
+ * @author: Song Ningning
+ * @date: 2020-06-04 15:11
  */
 public class Solution1 {
 
     /*
      * 第一次合并后，剩下两个链表依然是有序的，可以重复第一次的过程，考虑用递归。
-     * 注意输入空结点的情况（两个都为空？其中一个为空？）。
+     * 注意输入空节点的情况（两个都为空？其中一个为空？）。
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
         // 特判

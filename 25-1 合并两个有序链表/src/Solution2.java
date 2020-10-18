@@ -1,12 +1,12 @@
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-04 15:20
+ * @author: Song Ningning
+ * @date: 2020-06-04 15:20
  */
 public class Solution2 {
 
     /*
      * 改成迭代
-     * dummy 的 next 指向归并后的链表的头结点；tail 指向每次归并后的链表的尾结点
+     * dummy 的 next 指向归并后的链表的头节点；tail 指向每次归并后的链表的尾节点
      */
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
 

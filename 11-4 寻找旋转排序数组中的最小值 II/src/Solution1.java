@@ -20,8 +20,8 @@
  * https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/
  * 本题对应《剑指offer》第 11 题 旋转数组的最小数字。
  *
- * @Author: Song Ningning
- * @Date: 2020-05-18 18:17
+ * @author: Song Ningning
+ * @date: 2020-05-18 18:17
  */
 public class Solution1 {
 

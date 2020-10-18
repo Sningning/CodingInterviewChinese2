@@ -1,8 +1,8 @@
 import java.util.PriorityQueue;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-18 17:32
+ * @author: Song Ningning
+ * @date: 2020-06-18 17:32
  */
 public class Solution2 {
     /**

@@ -19,8 +19,8 @@
  *
  * 注意：本题与力扣 400 题相同：https://leetcode-cn.com/problems/nth-digit/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-23 9:07
+ * @author: Song Ningning
+ * @date: 2020-06-23 9:07
  */
 public class Solution {
 

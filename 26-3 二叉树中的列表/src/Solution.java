@@ -15,7 +15,7 @@ public class Solution {
         if (dfs(head, root)) {
             return true;
         }
-        // 如果两棵树根结点值相等，再去看看各自左右子树匹配情况
+        // 如果两棵树根节点值相等，再去看看各自左右子树匹配情况
         return isSubPath(head, root.left) || isSubPath(head, root.right);
     }
 
@@ -28,11 +28,11 @@ public class Solution {
         if (root == null) {
             return false;
         }
-        // 如果两棵树根结点值不相等，肯定匹配不上
+        // 如果两棵树根节点值不相等，肯定匹配不上
         if (head.val != root.val) {
             return false;
         }
-        // 如果两棵树根结点值相等，再去看看左右子树匹配情况，这里是 或 连接
+        // 如果两棵树根节点值相等，再去看看左右子树匹配情况，这里是 或 连接
         return dfs(head.next, root.left) || dfs(head.next, root.right);
     }
 }

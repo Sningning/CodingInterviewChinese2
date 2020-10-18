@@ -12,8 +12,8 @@
  * 提示：
  * 0 <= num < 231
  *
- * @Author: Song Ningning
- * @Date: 2020-06-24 11:54
+ * @author: Song Ningning
+ * @date: 2020-06-24 11:54
  */
 public class Solution2 {
 

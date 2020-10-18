@@ -20,8 +20,8 @@
  * 提示：
  * 数组长度 <= 1000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 16:39
+ * @author: Song Ningning
+ * @date: 2020-06-09 16:39
  */
 public class Solution1 {
 
@@ -38,7 +38,7 @@ public class Solution1 {
      * 递归过程：
      *     针对某一序列 postorder，p1 指向 0 位置元素，p2 指向最后一个位置元素；
      *     1. 划分左右子树：
-     *         遍历 postorder[p1...p2]，找到第一个大于根结点的结点，索引记为 k，
+     *         遍历 postorder[p1...p2]，找到第一个大于根节点的节点，索引记为 k，
      *         此时划分为左子树区间 [p1...k-1]、右子树区间[k...p2-1]
      *     2. 判断是否是 BST
      *         左子树区间 [p1...k-1]：postorder[p1...k-1] 全部元素必须小于 postorder[p2]，这在上一步已经保证了，因此不需要判断；
@@ -53,7 +53,7 @@ public class Solution1 {
     private static boolean verifySeq(int[] postorder, int p1, int p2) {
         if (p1 >= p2)
             return true;
-        // 找到第一个大于根结点的结点，索引记为 k
+        // 找到第一个大于根节点的节点，索引记为 k
         int k = p1;
         while (postorder[k] < postorder[p2]) k++;
         // 判断右区间

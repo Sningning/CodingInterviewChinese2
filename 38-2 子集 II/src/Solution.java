@@ -22,8 +22,8 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/subsets-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-18 10:28
+ * @author: Song Ningning
+ * @date: 2020-06-18 10:28
  */
 public class Solution {
 

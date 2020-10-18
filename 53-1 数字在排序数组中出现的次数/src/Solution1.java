@@ -16,8 +16,8 @@
  * 注意：本题与主站 34 题相同（仅返回值不同）：
  * https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-29 22:43
+ * @author: Song Ningning
+ * @date: 2020-06-29 22:43
  */
 public class Solution1 {
 

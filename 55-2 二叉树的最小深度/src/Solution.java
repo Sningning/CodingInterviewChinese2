@@ -17,14 +17,14 @@
  *
  * https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 17:07
+ * @author: Song Ningning
+ * @date: 2020-07-01 17:07
  */
 public class Solution {
 
     /**
      * 本来直接把最大深度代码 copy 过来，然后 max 改为 min，提交，失败。
-     * 仔细审题很重要啊，题目中说了从根节点到最近【叶子节点】，而叶子节点是【没有孩子】的结点。
+     * 仔细审题很重要啊，题目中说了从根节点到最近【叶子节点】，而叶子节点是【没有孩子】的节点。
      * 举个例子：
      *   1
      *    \
@@ -35,7 +35,7 @@ public class Solution {
         if (root == null) {
             return 0;
         }
-        // 如果到达了叶子结点，直接返回 1
+        // 如果到达了叶子节点，直接返回 1
         if (root.left == null && root.right == null) {
             return 1;
         }
@@ -52,7 +52,7 @@ public class Solution {
 
 
     /**
-     * 因为 null 也是结点，所以可以再递归一层
+     * 因为 null 也是节点，所以可以再递归一层
      * 如果左孩子为空的话，leftDepth = 0；
      * 如果右孩子为空的话，rightDepth = 0；
      */

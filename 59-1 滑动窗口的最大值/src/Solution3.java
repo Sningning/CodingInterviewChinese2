@@ -26,8 +26,8 @@ import java.util.PriorityQueue;
  *
  * 注意：本题与主站 239 题相同：https://leetcode-cn.com/problems/sliding-window-maximum/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-09 8:44
+ * @author: Song Ningning
+ * @date: 2020-07-09 8:44
  */
 public class Solution3 {
 

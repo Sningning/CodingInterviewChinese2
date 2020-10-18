@@ -7,8 +7,8 @@
  *
  * 答案需要取模 1e9+7（1000000007），如计算初始结果为：1000000008，请返回 1。
  *
- * @Author: Song Ningning
- * @Date: 2020-05-29 15:31
+ * @author: Song Ningning
+ * @date: 2020-05-29 15:31
  */
 public class Solution {
 

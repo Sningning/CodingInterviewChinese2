@@ -18,8 +18,8 @@ import java.util.HashMap;
  *
  * https://leetcode-cn.com/problems/single-number/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-03 20:33
+ * @author: Song Ningning
+ * @date: 2020-07-03 20:33
  */
 public class Solution1 {
 

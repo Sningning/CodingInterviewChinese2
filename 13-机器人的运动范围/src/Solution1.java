@@ -10,8 +10,8 @@
  * 1 <= n,m <= 100
  * 0 <= k <= 20
  *
- * @Author: Song Ningning
- * @Date: 2020-05-19 22:26
+ * @author: Song Ningning
+ * @date: 2020-05-19 22:26
  */
 public class Solution1 {
 

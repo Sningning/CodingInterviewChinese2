@@ -6,8 +6,8 @@
  * 提示：
  * 0 <= n <= 100
  *
- * @Author: Song Ningning
- * @Date: 2020-05-16 22:20
+ * @author: Song Ningning
+ * @date: 2020-05-16 22:20
  */
 public class Solution1 {
 

@@ -5,8 +5,8 @@
  *
  * 注意：本题与力扣 191 题相同：https://leetcode-cn.com/problems/number-of-1-bits/
  *
- * @Author: Song Ningning
- * @Date: 2020-05-29 16:00
+ * @author: Song Ningning
+ * @date: 2020-05-29 16:00
  */
 public class Solution1 {
 

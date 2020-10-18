@@ -2,8 +2,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-07-01 16:03
+ * @author: Song Ningning
+ * @date: 2020-07-01 16:03
  */
 public class Solution2 {
 

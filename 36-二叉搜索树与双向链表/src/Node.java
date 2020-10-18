@@ -1,6 +1,6 @@
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-14 12:46
+ * @author: Song Ningning
+ * @date: 2020-06-14 12:46
  */
 public class Node {
     public int val;

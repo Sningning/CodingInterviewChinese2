@@ -3,8 +3,8 @@
  *
  * https://leetcode-cn.com/problems/shun-shi-zhen-da-yin-ju-zhen-lcof/
  *
- * @Author: Song Ningning
- * @Date: 2020-05-12 12:45
+ * @author: Song Ningning
+ * @date: 2020-05-12 12:45
  */
 public class Solution2 {
 

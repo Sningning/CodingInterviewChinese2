@@ -2,14 +2,14 @@ import java.util.Deque;
 import java.util.LinkedList;
 
 /**
- * @Author: Song Ningning
- * @Date: 2020-06-14 14:19
+ * @author: Song Ningning
+ * @date: 2020-06-14 14:19
  */
 public class Solution2 {
 
     /**
      * 迭代
-     * Time：O(N) 所有结点遍历一遍
+     * Time：O(N) 所有节点遍历一遍
      * Space：O(N)
      */
     public Node treeToDoublyList(Node root) {

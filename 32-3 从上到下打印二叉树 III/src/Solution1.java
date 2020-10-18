@@ -28,8 +28,8 @@ import java.util.List;
  * 提示：
  * 节点总数 <= 1000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-09 11:06
+ * @author: Song Ningning
+ * @date: 2020-06-09 11:06
  */
 public class Solution1 {
 
@@ -54,10 +54,10 @@ public class Solution1 {
                     TreeNode node = deque.pollLast();
                     list.add(node.val);
                     if (node.left != null)
-                        // 先向队首加入左结点
+                        // 先向队首加入左节点
                         deque.addFirst(node.left);
                     if (node.right != null)
-                        // 再向队首加入右结点
+                        // 再向队首加入右节点
                         deque.addFirst(node.right);
                 }
             } else {  // 如果是偶数层
@@ -66,10 +66,10 @@ public class Solution1 {
                     TreeNode node = deque.pollFirst();
                     list.add(node.val);
                     if (node.right != null)
-                        // 先向队尾加入右结点
+                        // 先向队尾加入右节点
                         deque.addLast(node.right);
                     if (node.left != null)
-                        // 再向队尾加入左结点
+                        // 再向队尾加入左节点
                         deque.addLast(node.left);
                 }
             }

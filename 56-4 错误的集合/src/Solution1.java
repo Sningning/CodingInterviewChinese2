@@ -18,8 +18,8 @@ import java.util.HashMap;
  *
  * https://leetcode-cn.com/problems/set-mismatch/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-03 23:44
+ * @author: Song Ningning
+ * @date: 2020-07-03 23:44
  */
 public class Solution1 {
 

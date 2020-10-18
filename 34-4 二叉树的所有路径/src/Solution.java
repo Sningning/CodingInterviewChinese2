@@ -23,8 +23,8 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/binary-tree-paths/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-12 17:03
+ * @author: Song Ningning
+ * @date: 2020-06-12 17:03
  */
 public class Solution {
 
@@ -44,7 +44,7 @@ public class Solution {
             return;
         }
         path.add(node.val);
-        // 到达了叶子结点
+        // 到达了叶子节点
         if (node.left == null && node.right == null) {
             StringBuilder builder = new StringBuilder();
             for (Integer num : path) {

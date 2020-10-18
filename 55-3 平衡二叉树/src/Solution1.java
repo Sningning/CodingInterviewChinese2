@@ -26,19 +26,19 @@
  * 返回 false 。
  *
  * 限制：
- * 1 <= 树的结点个数 <= 10000
+ * 1 <= 树的节点个数 <= 10000
  *
  * 注意：本题与主站 110 题相同：https://leetcode-cn.com/problems/balanced-binary-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-01 18:15
+ * @author: Song Ningning
+ * @date: 2020-07-01 18:15
  */
 public class Solution1 {
 
     /**
      * 自顶向下计算
      *
-     * 从根结点出发，对于每个结点，计算其左右深度，然后判断。
+     * 从根节点出发，对于每个节点，计算其左右深度，然后判断。
      *
      */
     public boolean isBalanced(TreeNode root) {
@@ -55,7 +55,7 @@ public class Solution1 {
 
     /**
      * 求以 root 为根的二叉树的最大深度
-     * @param root 根结点
+     * @param root 根节点
      * @return 二叉树的最大深度
      */
     private int getTreeDepth(TreeNode root) {

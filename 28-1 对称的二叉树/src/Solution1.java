@@ -21,8 +21,8 @@
  *
  * 注意：本题与力扣 101 题相同：https://leetcode-cn.com/problems/symmetric-tree/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-06 19:17
+ * @author: Song Ningning
+ * @date: 2020-06-06 19:17
  */
 public class Solution1 {
 
@@ -35,17 +35,17 @@ public class Solution1 {
     }
 
     private boolean check(TreeNode node1, TreeNode node2) {
-        // 传入的两个结点均为空，返回 true
+        // 传入的两个节点均为空，返回 true
         if (node1 == null && node2 == null)
             return true;
         // 如果一个为空一个不为空，返回 false
         if (node1 == null || node2 == null)
             return false;
 
-        // 两个结点都不为空，但是值不相等返回 false
+        // 两个节点都不为空，但是值不相等返回 false
         if (node1.val != node2.val)
             return false;
-        // 传入的两个结点值相等的话，再递归往下看
+        // 传入的两个节点值相等的话，再递归往下看
         return check(node1.left, node2.right) && check(node1.right, node2.left);
 
         // 最后的 if-else 可以简写

@@ -19,8 +19,8 @@ import java.util.List;
  * 限制：
  * 1 <= target <= 10^5
  *
- * @Author: Song Ningning
- * @Date: 2020-07-04 18:40
+ * @author: Song Ningning
+ * @date: 2020-07-04 18:40
  */
 public class Solution1 {
 

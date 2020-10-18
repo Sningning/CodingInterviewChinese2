@@ -18,19 +18,19 @@
  *
  * https://leetcode-cn.com/problems/path-sum/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-12 9:16
+ * @author: Song Ningning
+ * @date: 2020-06-12 9:16
  */
 public class Solution1 {
 
     /**
      * 递归 (DFS)
      *
-     * 这道题有个坑，题目中说是否存在根结点到【叶子结点】的路径，也就是说一定要找到叶子结点才算完。
-     * 比如上面的例子，如果给定的 sum = 20，有一条路径 5-4-11，相加是 20，但是 11 不是叶子结点，所以这条路径也是 false。
-     * 知道这个以后，就明白每次都需要走到叶子结点。
+     * 这道题有个坑，题目中说是否存在根节点到【叶子节点】的路径，也就是说一定要找到叶子节点才算完。
+     * 比如上面的例子，如果给定的 sum = 20，有一条路径 5-4-11，相加是 20，但是 11 不是叶子节点，所以这条路径也是 false。
+     * 知道这个以后，就明白每次都需要走到叶子节点。
      *
-     * 递归终止条件：走到了根结点，可以进行判断了。
+     * 递归终止条件：走到了根节点，可以进行判断了。
      */
 
     public boolean hasPathSum(TreeNode root, int sum) {
@@ -41,17 +41,17 @@ public class Solution1 {
     }
 
     private boolean helper(TreeNode root, int sum) {
-        // 递归终止条件：到达了叶子结点，进行返回
+        // 递归终止条件：到达了叶子节点，进行返回
         if (root.left == null && root.right == null) {
             return root.val == sum;
         }
         // 只有右孩子
         if (root.left == null) {
-            helper(root.right, sum - root.val);
+            return helper(root.right, sum - root.val);
         }
         // 只有左孩子
         if (root.right == null) {
-            helper(root.left, sum - root.val);
+            return helper(root.left, sum - root.val);
         }
         // 既有右孩子又有左孩子
         return helper(root.left, sum - root.val) || helper(root.right, sum - root.val);

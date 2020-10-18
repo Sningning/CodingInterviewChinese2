@@ -9,8 +9,8 @@
  * 输出: 3
  * 解释：数字 3 和它的下标相等。
  *
- * @Author: Song Ningning
- * @Date: 2020-06-30 17:06
+ * @author: Song Ningning
+ * @date: 2020-06-30 17:06
  */
 public class Solution {
 

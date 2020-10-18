@@ -19,8 +19,8 @@ import java.util.HashMap;
  *    15   7
  *
  * https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/
- * @Author: Song Ningning
- * @Date: 2020-07-16 19:23
+ * @author: Song Ningning
+ * @date: 2020-07-16 19:23
  */
 public class Solution {
 

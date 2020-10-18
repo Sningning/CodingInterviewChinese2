@@ -18,8 +18,8 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/majority-element-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-06-17 10:49
+ * @author: Song Ningning
+ * @date: 2020-06-17 10:49
  */
 public class Solution {
 

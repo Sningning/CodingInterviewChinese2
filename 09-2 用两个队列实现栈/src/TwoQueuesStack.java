@@ -4,8 +4,8 @@ import java.util.Queue;
 /**
  * 仅用队列结构实现栈结构
  *
- * @Author: Song Ningning
- * @Date: 2020-06-30 9:13
+ * @author: Song Ningning
+ * @date: 2020-06-30 9:13
  */
 public class TwoQueuesStack {
 

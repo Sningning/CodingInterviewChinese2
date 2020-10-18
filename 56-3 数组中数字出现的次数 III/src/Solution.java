@@ -18,8 +18,8 @@ import java.util.Arrays;
  *
  * 本题与力扣 137. 只出现一次的数字 II 相同 https://leetcode-cn.com/problems/single-number-ii/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-03 22:20
+ * @author: Song Ningning
+ * @date: 2020-07-03 22:20
  */
 public class Solution {
 

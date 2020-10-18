@@ -2,8 +2,8 @@
  * 面试题36. 二叉搜索树与双向链表
  * 输入一棵二叉搜索树，将该二叉搜索树转换成一个排序的循环双向链表。要求不能创建任何新的节点，只能调整树中节点指针的指向。
  *
- * @Author: Song Ningning
- * @Date: 2020-06-14 12:47
+ * @author: Song Ningning
+ * @date: 2020-06-14 12:47
  */
 public class Solution1 {
 
@@ -15,7 +15,7 @@ public class Solution1 {
      * 双向链表：不仅需要 cur.left = left，还需要 left.right = cur
      * 循环链表：head.left = tail, tail.right = head
      *
-     * Time：O(N) 把所有结点遍历一遍
+     * Time：O(N) 把所有节点遍历一遍
      * Space：O(N) 最坏的情况下退化成链表，递归深度达到 N，需要 O(N) 系统栈。
      */
 
@@ -25,8 +25,8 @@ public class Solution1 {
             return null;
         }
         dfs(root);
-        // 运行完 dfs(root) 后，prev 指向链表最后一个结点
-        // 完成头尾结点的连接
+        // 运行完 dfs(root) 后，prev 指向链表最后一个节点
+        // 完成头尾节点的连接
         prev.right = head;
         head.left = prev;
         return head;
@@ -38,7 +38,7 @@ public class Solution1 {
         }
         dfs(cur.left);
         if (prev == null) {
-            // 走到了最左侧，头结点即为当前结点
+            // 走到了最左侧，头节点即为当前节点,该代码只会执行一次
             head = cur;
         } else {
             // 双向连接

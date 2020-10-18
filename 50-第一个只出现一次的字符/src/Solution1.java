@@ -14,8 +14,8 @@ import java.util.HashMap;
  * 限制：
  * 0 <= s 的长度 <= 50000
  *
- * @Author: Song Ningning
- * @Date: 2020-06-28 21:29
+ * @author: Song Ningning
+ * @date: 2020-06-28 21:29
  */
 public class Solution1 {
 

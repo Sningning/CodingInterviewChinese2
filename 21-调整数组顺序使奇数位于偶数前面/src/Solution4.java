@@ -1,8 +1,8 @@
 /**
  * 如果题目要求不改变原来数字的顺序
  *
- * @Author: Song Ningning
- * @Date: 2020-06-02 19:46
+ * @author: Song Ningning
+ * @date: 2020-06-02 19:46
  */
 public class Solution4 {
 

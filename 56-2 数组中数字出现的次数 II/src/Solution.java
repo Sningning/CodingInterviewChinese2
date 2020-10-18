@@ -16,8 +16,8 @@
  *
  * 本题与力扣 260. 只出现一次的数字 III 相同 https://leetcode-cn.com/problems/single-number-iii/
  *
- * @Author: Song Ningning
- * @Date: 2020-07-03 20:56
+ * @author: Song Ningning
+ * @date: 2020-07-03 20:56
  */
 public class Solution {
 
