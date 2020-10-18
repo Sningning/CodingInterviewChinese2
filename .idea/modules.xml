@@ -36,7 +36,6 @@
       <module fileurl="file://$PROJECT_DIR$/25-1 合并两个有序链表/25-1 合并两个有序链表.iml" filepath="$PROJECT_DIR$/25-1 合并两个有序链表/25-1 合并两个有序链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/25-2 合并K个排序链表/25-2 合并K个排序链表.iml" filepath="$PROJECT_DIR$/25-2 合并K个排序链表/25-2 合并K个排序链表.iml" />
       <module fileurl="file://$PROJECT_DIR$/25-3 排序链表/25-3 排序链表.iml" filepath="$PROJECT_DIR$/25-3 排序链表/25-3 排序链表.iml" />
-      <module fileurl="file://$PROJECT_DIR$/25-4 对链表进行插入排序/25-4 对链表进行插入排序.iml" filepath="$PROJECT_DIR$/25-4 对链表进行插入排序/25-4 对链表进行插入排序.iml" />
       <module fileurl="file://$PROJECT_DIR$/26-1 树的子结构/26-1 树的子结构.iml" filepath="$PROJECT_DIR$/26-1 树的子结构/26-1 树的子结构.iml" />
       <module fileurl="file://$PROJECT_DIR$/26-2 另一个树的子树/26-2 另一个树的子树.iml" filepath="$PROJECT_DIR$/26-2 另一个树的子树/26-2 另一个树的子树.iml" />
       <module fileurl="file://$PROJECT_DIR$/26-3 二叉树中的列表/26-3 二叉树中的列表.iml" filepath="$PROJECT_DIR$/26-3 二叉树中的列表/26-3 二叉树中的列表.iml" />
@@ -56,7 +55,6 @@
       <module fileurl="file://$PROJECT_DIR$/33-二叉搜索树的后序遍历序列/33-二叉搜索树的后序遍历序列.iml" filepath="$PROJECT_DIR$/33-二叉搜索树的后序遍历序列/33-二叉搜索树的后序遍历序列.iml" />
       <module fileurl="file://$PROJECT_DIR$/34-1 路径总和/34-1 路径总和.iml" filepath="$PROJECT_DIR$/34-1 路径总和/34-1 路径总和.iml" />
       <module fileurl="file://$PROJECT_DIR$/34-2 路径总和 II/34-2 路径总和 II.iml" filepath="$PROJECT_DIR$/34-2 路径总和 II/34-2 路径总和 II.iml" />
-      <module fileurl="file://$PROJECT_DIR$/34-3 路径总和 III/34-3 路径总和 III.iml" filepath="$PROJECT_DIR$/34-3 路径总和 III/34-3 路径总和 III.iml" />
       <module fileurl="file://$PROJECT_DIR$/34-4 二叉树的所有路径/34-4 二叉树的所有路径.iml" filepath="$PROJECT_DIR$/34-4 二叉树的所有路径/34-4 二叉树的所有路径.iml" />
       <module fileurl="file://$PROJECT_DIR$/35-复杂链表的复制/35-复杂链表的复制.iml" filepath="$PROJECT_DIR$/35-复杂链表的复制/35-复杂链表的复制.iml" />
       <module fileurl="file://$PROJECT_DIR$/36-二叉搜索树与双向链表/36-二叉搜索树与双向链表.iml" filepath="$PROJECT_DIR$/36-二叉搜索树与双向链表/36-二叉搜索树与双向链表.iml" />
