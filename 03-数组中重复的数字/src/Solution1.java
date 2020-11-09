@@ -17,7 +17,7 @@ public class Solution1 {
         // 哈希表
         // Time：O(N)；Space：O(N)
 
-        if (nums.length == 0)
+        if (nums == null || nums.length == 0)
             return -1;
         HashSet<Integer> set = new HashSet<>();
         for (int num : nums) {

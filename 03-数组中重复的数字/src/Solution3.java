@@ -15,7 +15,7 @@ public class Solution3 {
         //         否则：下标 i 的元素 nums[i]，如果 == nums[nums[i]],找到了重复元素，返回;
         //              如果 nums[i] != nums[nums[i]]，交换两个元素位置，继续判断 i 位置
 
-        if (nums.length == 0)
+        if (nums == null || nums.length == 0)
             return -1;
         for (int i = 0; i < nums.length; i++) {
             // 如果当前的数 nums[i] 没有在下标为 i 的位置上，就把它交换到下标 i 上

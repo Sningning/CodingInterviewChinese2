@@ -11,7 +11,7 @@ public class Solution2 {
         // 排序
         // Time：O(NlogN)；Space：O(1)
 
-        if (nums.length == 0)
+        if (nums == null || nums.length == 0)
             return -1;
         Arrays.sort(nums);
         for (int i = 1; i < nums.length; i++) {
