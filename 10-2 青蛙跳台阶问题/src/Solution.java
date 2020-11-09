@@ -15,7 +15,7 @@ public class Solution {
     public int numWays(int n) {
 
         int f1 = 1, f2 = 1, fn = 1;
-        for (int i = 1; i < n; i++) {
+        for (int i = 2; i <= n; i++) {
             fn = (f1 + f2) % 1000000007;
             f1 = f2;
             f2 = fn;
