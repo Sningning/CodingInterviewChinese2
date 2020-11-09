@@ -39,7 +39,7 @@ public class Solution {
         // 为了快速定位根节点在 inorder 中位置，使用 map 先存起来
         // 题目中说不含重复元素，所以可以把值作为 key，索引作为 value
         HashMap<Integer, Integer> map = new HashMap<>();
-        for (int i = 0; i < inorder.length; i++) {
+        for (int i = 0; i < inLen; i++) {
             map.put(inorder[i], i);
         }
         return build(postorder, 0, postLen - 1, 0, inLen - 1, map);
