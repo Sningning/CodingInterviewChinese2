@@ -59,7 +59,7 @@ public class Solution {
         root.left = build(preorder, preL + 1, preL + (pivotIdx - inL),
                 inL, pivotIdx - 1, map);
         // 构建右子树
-        root.right = build(preorder, preL + (pivotIdx - inL) + 1, preR,
+        root.right = build(preorder, preL + 1 + (pivotIdx - inL), preR,
                 pivotIdx + 1, inR, map);
         return root;
     }
