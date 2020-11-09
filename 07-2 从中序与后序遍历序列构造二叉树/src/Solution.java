@@ -70,7 +70,7 @@ public class Solution {
         root.right = build(postorder, postR - (inR - pivotIdx), postR - 1,
                 pivotIdx + 1, inR, map);
         // 构建左子树
-        root.left = build(postorder, postL, postR - (inR - pivotIdx) - 1,
+        root.left = build(postorder, postL, postR - 1 - (inR - pivotIdx),
                 inL, pivotIdx - 1, map);
         return root;
     }
