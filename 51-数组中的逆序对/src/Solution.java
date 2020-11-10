@@ -27,7 +27,7 @@ public class Solution {
             return 0;
         }
         int mid = l + ((r - l) >>> 1);
-        int left = merge(nums, l, mid, r);
+        int left = sortProcess(nums, l, mid);
         int right = sortProcess(nums, mid + 1, r);
         // 如果已经有序了，当前不需要归并，不存在逆序对
         if (nums[mid] <= nums[mid + 1]) {
