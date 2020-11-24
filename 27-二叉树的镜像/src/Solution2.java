@@ -24,7 +24,7 @@ public class Solution2 {
             // 队首节点的左孩子入队，准备下一轮交换它的左右子树
             if (node.left != null)
                 queue.add(node.left);
-            // 队首节点的左孩子入队，准备下一轮交换它的左右子树
+            // 队首节点的右孩子入队，准备下一轮交换它的左右子树
             if (node.right != null)
                 queue.add(node.right);
         }
